@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T01:43:27.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="7sI4Y9sDrgFMV6GS_ye_" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T05:44:11.337Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="3u0YjhEe2ASZ4XW-VPpM" version="22.1.18" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1688" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -110,8 +110,8 @@
             <mxPoint x="940" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="901poAid-8j9gdvFEGUS-181" value="6.请求认证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="388" width="80" height="30" as="geometry" />
+        <mxCell id="901poAid-8j9gdvFEGUS-181" value="6.请求认证获取token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="388" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="901poAid-8j9gdvFEGUS-183" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
