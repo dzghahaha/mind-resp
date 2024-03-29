@@ -1,9 +1,168 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T01:42:21.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.0.7" etag="l0FoHr1OIWYu22TZef8m" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T06:14:39.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Z-AwRC8tdyMHEsBJvVn_" version="24.0.7" type="github">
   <diagram name="第 1 页" id="6Ctc8UL-A5C2mINTibMD">
-    <mxGraphModel>
+    <mxGraphModel dx="1397" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-7" value="用户支付" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-11" target="MP4eYyKk7LPoyzOWAJAM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-11" value="oms&lt;br&gt;渠道商户号&lt;br&gt;渠道子商户号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-12" target="MP4eYyKk7LPoyzOWAJAM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-12" value="pms&lt;br&gt;支付" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-16" target="MP4eYyKk7LPoyzOWAJAM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-16" value="开启充电" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-18" target="MP4eYyKk7LPoyzOWAJAM-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-18" value="充电结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-52" target="MP4eYyKk7LPoyzOWAJAM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-52" value="&lt;div&gt;oms&lt;/div&gt;分账&lt;br&gt;根据快照获取订单分账信息进行分账" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-54" value="pms&lt;br&gt;核销分账" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-57" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;后台录入&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-58" value="商户录入&lt;div&gt;渠道商户号&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="495" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-59" value="~首选下单商户业务开发~&lt;br&gt;1.新增子商户必填是否为首选“下单子商户”&lt;br&gt;&lt;div&gt;2.下单时获取首选下单子商户进行下单&lt;br&gt;3.分账时将记录 收款方、分账方订单&lt;/div&gt;&lt;div&gt;如首选下单子商户为A，分账收款方B、C&lt;/div&gt;&lt;div&gt;（1）下单时指定订单给A。&lt;/div&gt;&lt;div&gt;（2）订单结束按照比例分账给B、C&lt;/div&gt;&lt;div&gt;（3）记录各商户分账订单，A为分账订单，B、C为收款订单&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="590" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-61" value="sftp&lt;br&gt;回盘文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1520" as="targetPoint" />
+            <mxPoint x="450.0000000000002" y="1200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-62" value="pms" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-71" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1220" as="sourcePoint" />
+            <mxPoint x="620" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-72" value="1、定时拉取day-1回盘数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MP4eYyKk7LPoyzOWAJAM-71">
+          <mxGeometry x="-0.133" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1260" as="sourcePoint" />
+            <mxPoint x="380" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-75" value="2、更新分账订单状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MP4eYyKk7LPoyzOWAJAM-73">
+          <mxGeometry x="0.0468" y="3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.00000000000023" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-76" value="oms" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1300" as="sourcePoint" />
+            <mxPoint x="160" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-79" value="3、更新oms分账订单状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MP4eYyKk7LPoyzOWAJAM-78">
+          <mxGeometry x="0.1232" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-82" target="MP4eYyKk7LPoyzOWAJAM-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395.0000000000002" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-82" value="admin创建stationA场站租户用户&lt;div&gt;A&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1940" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-85" target="MP4eYyKk7LPoyzOWAJAM-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395.0000000000002" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-85" value="1、A创建场站stationA&lt;br&gt;2、创建BC俩账号" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2060" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-90" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-92" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2340" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-93" value="租户A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2375" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-97" target="MP4eYyKk7LPoyzOWAJAM-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400.0000000000002" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-97" value="开启充电" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2580" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-100" target="MP4eYyKk7LPoyzOWAJAM-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400.0000000000002" y="2950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-100" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350.0000000000002" y="2730" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-102" target="MP4eYyKk7LPoyzOWAJAM-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-102" value="快照数据&lt;br&gt;创建订单分账比例快照&lt;div&gt;oms_shared_ratio_snap&lt;br&gt;创建订单主商户快照&lt;br&gt;oms_main_mer_snap&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2900" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-105" target="MP4eYyKk7LPoyzOWAJAM-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-105" value="订单结束" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3050" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-110" value="开始分账&lt;br&gt;1.获取订单分账比例快照 &lt;br&gt;2.按照比例进行分账&lt;br&gt;3.创建分账订单&lt;div&gt;4.获取订单主商户快照&lt;br&gt;4.创建收款订单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="3200" width="340" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
