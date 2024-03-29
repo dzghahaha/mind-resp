@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T06:15:17.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ON9NvYdv1n7-GCmvZXFc" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T06:15:28.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="5WmJJ6MMFTw2CLP8pQ4-" version="24.0.7" type="github">
   <diagram name="第 1 页" id="6Ctc8UL-A5C2mINTibMD">
     <mxGraphModel dx="1688" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
         <mxCell id="MP4eYyKk7LPoyzOWAJAM-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-102" target="MP4eYyKk7LPoyzOWAJAM-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MP4eYyKk7LPoyzOWAJAM-102" value="快照数据&lt;br&gt;创建订单分账比例快照&lt;div&gt;oms_shared_ratio_snap&lt;br&gt;创建订单主商户快照&lt;br&gt;oms_main_mer_snap&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="MP4eYyKk7LPoyzOWAJAM-102" value="快照数据&lt;br&gt;1.创建订单分账比例快照&lt;div&gt;oms_shared_ratio_snap&lt;br&gt;2.创建订单主商户快照&lt;br&gt;oms_main_mer_snap&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="315" y="2872" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MP4eYyKk7LPoyzOWAJAM-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MP4eYyKk7LPoyzOWAJAM-105" target="MP4eYyKk7LPoyzOWAJAM-110">
